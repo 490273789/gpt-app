@@ -34,3 +34,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# dependencies
+
+- react-icons
+  - react的一个图标库
+- react-markdown
+- react-syntax-highlighter
+- react-textarea-autosize
+- remark-gfm
+- clsx
+  - 优化对于类名的条件语句写法，可以将类名转换为对象的形式
+- tailwind-merge
+  - 解决tailwindCss的样式冲突问题，使后传入的类名优先级更高
+  - tailwindCSS默认情况下类名的优先级跟class写的顺序没有关系，不可控
+- class-variance-authority
+  - 多个遍体可以提取成函数
+  - 官网[https://cva.style/docs/getting-started/variants]
+
+# devDependencies
+
+- prettier-plugin-tailwindcss
+  - 格式化tailwind
+
+# vscode Extensions
+
+- Tailwind Fold
+  - 折叠tailwind 代码
+  - shortKey：ctl + alt + a
