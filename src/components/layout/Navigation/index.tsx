@@ -10,8 +10,8 @@ export default function Navigation() {
   return (
     <nav
       className={cn(
-        "dark flex w-[260px] flex-col bg-gray-950 p-2 text-gray-400 transition-all",
-        { hidden: !displayNav },
+        "dark fixed bottom-0 left-0 top-0 flex w-[260px] flex-col bg-gray-950 p-2 text-gray-400 transition-all",
+        { "left-[-260px]": !displayNav },
       )}>
       <TopMenu />
     </nav>

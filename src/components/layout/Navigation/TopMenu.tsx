@@ -16,12 +16,12 @@ export default function TopMenu() {
   );
 
   return (
-    <div className="flex space-x-2">
+    <div className="flex space-x-3">
+      <Button icon={LuPanelLeftClose} variant="outline" onClick={closePanel} />
+      <Button icon={LuSearch} variant="outline" />
       <Button icon={LuPlus} className="flex-1">
         新对话
       </Button>
-      <Button icon={LuSearch} variant="outline" />
-      <Button icon={LuPanelLeftClose} variant="outline" onClick={closePanel} />
     </div>
   );
 }
