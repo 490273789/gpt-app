@@ -49,7 +49,7 @@ const eslintConfig = [
           ],
           //将react包不进行排序，并放在前排，可以保证react包放在第一行
           pathGroupsExcludedImportTypes: ["react"],
-          "newlines-between": "always", //每个分组之间换行
+          // "newlines-between": "always", //每个分组之间换行
           //根据字母顺序对每个组内的顺序进行排序
           alphabetize: { order: "asc", caseInsensitive: true },
         },
